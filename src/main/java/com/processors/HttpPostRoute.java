@@ -12,6 +12,7 @@ public class HttpPostRoute extends RouteBuilder {
     @Override
     public void configure() throws Exception {
       from("timer:mytimer?period=5000")
+              .routeId("post route")
               .setHeader(HTTP_METHOD).constant(HttpMethod.GET)
               .log("Httpmethod: ${header." + HTTP_METHOD + "}")
               .process(exchange ->{
