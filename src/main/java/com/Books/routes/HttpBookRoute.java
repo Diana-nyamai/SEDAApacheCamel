@@ -1,5 +1,6 @@
-package com.Books;
+package com.Books.routes;
 
+import com.Books.util.Books;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.jackson.JacksonDataFormat;
 import org.springframework.stereotype.Component;

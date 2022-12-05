@@ -1,5 +1,6 @@
-package com.Books;
+package com.Books.util;
 
+import com.Books.util.Book;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

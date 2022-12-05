@@ -1,4 +1,4 @@
-package com.Books;
+package com.Books.routes;
 
 import org.apache.camel.LoggingLevel;
 import org.apache.camel.builder.RouteBuilder;
